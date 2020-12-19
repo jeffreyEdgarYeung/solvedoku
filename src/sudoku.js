@@ -12,7 +12,7 @@ function Cell(props){
   return (
     <input
       type="text"
-      defaultValue={props.value !== '.' ? props.value : ' '}
+      defaultValue={props.value !== '.' ? props.value : ''}
       name={props.idx}
       onInput={props.handleCellChange}
     />
