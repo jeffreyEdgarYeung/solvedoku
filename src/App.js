@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Sudoku puzzle={puzzle}/>
-        <button onClick={handleSolveClick}>Solve!</button>
+        <Sudoku/>
+
       </header>
     </div>
   );
